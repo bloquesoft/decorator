@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00462268-3f5f-4723-b7fe-4e3f2b558949" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/action/AbstractDecoratedAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/action/DecorateActionDeclare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/action/DecorateActionDeclareRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/action/DecorateActionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/action/InstanceKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/annotation/Decorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/common/register/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/common/register/Registrable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/common/register/SyncRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/executor/ExecutePhase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/executor/ExecutorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/object/DecoratedMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/object/DecoratedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/object/DecoratedObjectReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/object/DecoratedObjectRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/ProxyObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/TargetMethodExecuteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/JdkProxyObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/resource/AbstractResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/resource/ResourceRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/ProxyObjectFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/action/DecorateActionDeclareRegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/executor/ExecutorFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/object/DecoratedObjectReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestActionAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestActionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestClassInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/main/java/io/github/bloquesoft/decorator/distributedLock/action/DecoratedDistributedLockAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/main/java/io/github/bloquesoft/decorator/distributedLock/action/DecoratedDistributedLockActionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/main/java/io/github/bloquesoft/decorator/distributedLock/action/DistributedLockType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/main/java/io/github/bloquesoft/decorator/distributedLock/action/InstanceParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/main/java/io/github/bloquesoft/decorator/distributedLock/annotation/DistributedLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/main/java/io/github/bloquesoft/decorator/distributedLock/executor/AbstractDistributedLockExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/test/java/io/github/bloquesoft/decorator/distributedLock/action/DecoratedDistributedLockActionReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/test/java/io/github/bloquesoft/decorator/distributedLock/action/LockObjectParameterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-distributedLock/src/test/java/io/github/bloquesoft/decorator/distributedLock/action/TestExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/main/java/io/github/bloquesoft/decorator/redis/AbstractRedisResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/main/java/io/github/bloquesoft/decorator/redis/MasterSlaveServerRedisResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/main/java/io/github/bloquesoft/decorator/redis/RedissonDistributedLockExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/main/java/io/github/bloquesoft/decorator/redis/RedissonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/main/java/io/github/bloquesoft/decorator/redis/SingleServerRedisResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/test/java/io/github/bloquesoft/decorator/redis/RedisServerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/test/java/io/github/bloquesoft/decorator/redis/RedissonDistributedLockExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/test/java/io/github/bloquesoft/decorator/redis/RedissonFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/test/java/io/github/bloquesoft/decorator/testData/ClassInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-redis/src/test/java/io/github/bloquesoft/decorator/testData/ClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/main/java/io/github/bloquesoft/decorator/spring/DecorateBeanInitialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/main/java/io/github/bloquesoft/decorator/spring/EnableDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/DecorateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/InitialDecoratorRegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/LockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/TargetClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/TargetClassInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-spring-starter/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\.m2\repository" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CIiyyLIJHmq5EzHZgveQoNm3Tl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/project/bloques/decorator/decorator-redis/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\bloques\decorator\decorator-redis\src\test\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.bloquesoft.decorator.redis" />
+      <recent name="io.github.bloquesoft.decorator.spring" />
+      <recent name="io.github.bloquesoft.decorator.spring.annotation" />
+      <recent name="io.github.bloquesoft.decorator.proxy" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.github.bloquesoft.decorator.distributedLock.action" />
+      <recent name="io.github.bloquesoft.decorator.executor" />
+      <recent name="io.github.bloquesoft.decorator.object" />
+      <recent name="io.github.bloquesoft.decorator.action" />
+      <recent name="io.github.bloquesoft.decorator.spring.annotation" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+      <command value="mvn clean package install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in decorator-core">
+    <configuration name="All in decorator-core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decorator-core" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in decorator-distributedLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decorator-distributedLock" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in decorator-redis (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decorator-redis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in decorator-redis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decorator-redis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in decorator-spring-starter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decorator-spring-starter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitialDecoratorRegisterTest.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decorator-spring-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.bloquesoft.decorator.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.bloquesoft.decorator.spring" />
+      <option name="MAIN_CLASS_NAME" value="io.github.bloquesoft.decorator.spring.InitialDecoratorRegisterTest" />
+      <option name="METHOD_NAME" value="init" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in decorator-core" />
+        <item itemvalue="JUnit.All in decorator-distributedLock" />
+        <item itemvalue="JUnit.All in decorator-spring-starter" />
+        <item itemvalue="JUnit.All in decorator-redis" />
+        <item itemvalue="JUnit.All in decorator-redis (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00462268-3f5f-4723-b7fe-4e3f2b558949" name="Changes" comment="" />
+      <created>1658496761366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658496761366</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/ProxyObjectFactoryTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/ProxyObjectFactoryTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/ProxyObjectFactoryTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/ProxyObjectFactoryTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestExecutor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestExecutor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/testData/TestClass.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/Application.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-spring-starter/src/test/java/com/github/InitialDecoratorRegisterTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-redis/src/main/java/io/github/bloquesoft/decorator/redis/RedissonDistributedLockExecutor.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-spring-starter/src/main/java/io/github/bloquesoft/decorator/spring/DecorateBeanInitialize.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-spring-starter/src/main/java/io/github/bloquesoft/decorator/spring/DecorateBeanInitialize.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java</url>
+          <line>63</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-redis/src/main/java/io/github/bloquesoft/decorator/redis/RedissonDistributedLockExecutor.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/object/DecoratedMethod.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/main/java/io/github/bloquesoft/decorator/proxy/jdk/DecorateMethodHandler.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/object/DecoratedObjectReaderTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/executor/ExecutorFactoryTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-distributedLock/src/test/java/io/github/bloquesoft/decorator/distributedLock/action/LockObjectParameterTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-distributedLock/src/main/java/io/github/bloquesoft/decorator/distributedLock/action/DecoratedDistributedLockAction.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-core/src/test/java/io/github/bloquesoft/decorator/object/DecoratedObjectReaderTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator-redis/src/test/java/io/github/bloquesoft/decorator/redis/RedissonDistributedLockExecutorTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="key" />
+        <PinnedItemInfo parentTag="java.util.concurrent.ConcurrentHashMap$MapEntry" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/decorator$All_in_decorator_core.ic" NAME="All in decorator-core Coverage Results" MODIFIED="1660147189665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/decorator$io_github_bloquesoft_decorator_in_decorator_core.ic" NAME="io.github.bloquesoft.decorator in decorator-core Coverage Results" MODIFIED="1660058060115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.github.bloquesoft.decorator.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/decorator$All_in_decorator_core__1_.ic" NAME="All in decorator-core (1) Coverage Results" MODIFIED="1660203062327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/decorator$All_in_decorator_core__3_.ic" NAME="All in decorator-core (3) Coverage Results" MODIFIED="1660059980284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/decorator$All_in_decorator_core__4_.ic" NAME="All in decorator-core (4) Coverage Results" MODIFIED="1660145497241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/decorator$All_in_decorator_redis.ic" NAME="All in decorator-redis Coverage Results" MODIFIED="1660268708741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/decorator$RedissonFactoryTest_getRedissonClient.ic" NAME="RedissonFactoryTest.getRedissonClient Coverage Results" MODIFIED="1659801727772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.github.bloquesoft.decorator.redis.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/decorator$All_in_decorator_distributedLock__1_.ic" NAME="All in decorator-distributedLock (1) Coverage Results" MODIFIED="1660187672541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/decorator$All_in_decorator_distributedLock.ic" NAME="All in decorator-distributedLock Coverage Results" MODIFIED="1660201896373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
